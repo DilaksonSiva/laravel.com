@@ -1,16 +1,16 @@
 # HTTP Routing
 
-- [Basic Routing](#basic-routing)
-- [CSRF Protection](#csrf-protection)
+- [அடிப்படைRouting](#basic-routing)
+- [CSRF பாதுகாப்பு](#csrf-protection)
 - [Method Spoofing](#method-spoofing)
-- [Route Parameters](#route-parameters)
+- [Route அளவுருக்கள்](#route-parameters)
 - [Named Routes](#named-routes)
 - [Route Groups](#route-groups)
 - [Route Model Binding](#route-model-binding)
 - [Throwing 404 Errors](#throwing-404-errors)
 
 <a name="basic-routing"></a>
-## Basic Routing
+## அடிப்படைRouting
 
 You will define most of the routes for your application in the `app/Http/routes.php` file, which is loaded by the `App\Providers\RouteServiceProvider` class. The most basic Laravel routes simply accept a URI and a `Closure`:
 
@@ -57,7 +57,7 @@ Often, you will need to generate URLs to your routes, you may do so using the `u
 	$url = url('foo');
 
 <a name="csrf-protection"></a>
-## CSRF Protection
+## CSRF பாதுகாப்பு
 
 Laravel makes it easy to protect your application from [cross-site request forgeries](http://en.wikipedia.org/wiki/Cross-site_request_forgery). Cross-site request forgeries are a type of malicious exploit whereby unauthorized commands are performed on behalf of the authenticated user.
 
@@ -110,11 +110,11 @@ The value sent with the `_method` field will be used as the HTTP request method.
 	</form>
 
 <a name="route-parameters"></a>
-## Route Parameters
+## Route  அளவுருக்கள்
 
 Of course, you can capture segments of the request URI within your route:
 
-#### Basic Route Parameter
+#### அடிப்படRoute  அளவுருக்கள்
 
 	Route::get('user/{id}', function($id)
 	{

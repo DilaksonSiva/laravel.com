@@ -124,7 +124,7 @@ While your application is in maintenance mode, no [queued jobs](/docs/5.0/queues
 
 ### Apache
 
-The framework ships with a `public/.htaccess` file that is used to allow URLs without `index.php`. If you use Apache to serve your Laravel application, be sure to enable the `mod_rewrite` module.
+The framework ships with a `public/.htaccess` file that is used to allow URLs without `index.php`. நீங்கள் உங்கள் Laravel பயன்பாட்டுச் செய்நிரலில் Apacheயை பயன்படுத்தினால்  `mod_rewrite` தொகுதியை  செயல்படுத்த வேண்டும்..
 
 If the `.htaccess` file that ships with Laravel does not work with your Apache installation, try this one:
 
@@ -139,10 +139,11 @@ If your web host doesn't allow the `FollowSymlinks` option, try replacing it wit
 
 ### Nginx
 
-On Nginx, the following directive in your site configuration will allow "pretty" URLs:
+Nginx-ல் , பின்வரும் உத்தரவு   உங்கள் தளத்தின்  கட்டமைப்பில்  "நுன்னயமான " URL-ஐ அனுமதிக்கும்:
 
 	location / {
 		try_files $uri $uri/ /index.php?$query_string;
 	}
 
-Of course, when using [Homestead](/docs/5.0/homestead), pretty URLs will be configured automatically.
+
+[Homestead](/docs/5.0/homestead)-ஐ பயன்ப்படுத்தும் பொழுது நிச்சயமாக நுன்னயமான URL-கள் தானாக உள்ளமைக்கப்படும்

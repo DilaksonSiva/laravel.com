@@ -8,7 +8,7 @@
 - [Blackfire Profiler](#blackfire-profiler)
 
 <a name="introduction"></a>
-## Introduction
+## அறிமுகம்
 
 Laravel strives to make the entire PHP development experience delightful, including your local development environment. [Vagrant](http://vagrantup.com) provides a simple, elegant way to manage and provision Virtual Machines.
 
@@ -21,7 +21,7 @@ Homestead runs on any Windows, Mac, or Linux system, and includes the Nginx web 
 Homestead is currently built and tested using Vagrant 1.7.
 
 <a name="included-software"></a>
-## Included Software
+## சேர்ந்துள்ள மென்பொருள்கள்
 
 - Ubuntu 14.04
 - PHP 5.6
@@ -38,7 +38,7 @@ Homestead is currently built and tested using Vagrant 1.7.
 - [Blackfire Profiler](#blackfire-profiler)
 
 <a name="installation-and-setup"></a>
-## Installation & Setup
+## நிறுவல் மற்றும் அமைப்பு
 
 ### Installing VirtualBox / VMware & Vagrant
 

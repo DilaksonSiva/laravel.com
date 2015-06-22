@@ -1,6 +1,6 @@
-# Views
+# தோற்றம்
 
-- [Basic Usage](#basic-usage)
+- [அடிப்படை பயன்ப்பாடு    ](#basic-usage)
 - [View Composers](#view-composers)
 
 <a name="basic-usage"></a>

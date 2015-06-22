@@ -1,7 +1,7 @@
 # Eloquent ORM
 
-- [Introduction](#introduction)
-- [Basic Usage](#basic-usage)
+- [அறிமுகம் ](#introduction)
+- [அடிப்படைப் பயன்பாடுகள்](#basic-usage)
 - [Mass Assignment](#mass-assignment)
 - [Insert, Update, Delete](#insert-update-delete)
 - [Soft Deleting](#soft-deleting)
@@ -24,14 +24,14 @@
 - [Converting To Arrays / JSON](#converting-to-arrays-or-json)
 
 <a name="introduction"></a>
-## Introduction
+## அறிமுகம்
 
 The Eloquent ORM included with Laravel provides a beautiful, simple ActiveRecord implementation for working with your database. Each database table has a corresponding "Model" which is used to interact with that table.
 
 Before getting started, be sure to configure a database connection in `config/database.php`.
 
 <a name="basic-usage"></a>
-## Basic Usage
+## அடிப்படைப் பயன்பாடுகள்
 
 To get started, create an Eloquent model. Models typically live in the `app` directory, but you are free to place them anywhere that can be auto-loaded according to your `composer.json` file. All Eloquent models extend `Illuminate\Database\Eloquent\Model`.
 
